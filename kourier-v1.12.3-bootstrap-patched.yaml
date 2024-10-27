@@ -139,11 +139,6 @@ data:
       address:
         pipe:
           path: /tmp/envoy.admin
-    # layered_runtime:
-    #   layers:
-    #     - name: static-layer
-    #       static_layer:
-    #         envoy.reloadable_features.override_request_timeout_by_gateway_timeout: false
 
 ---
 # Copyright 2021 The Knative Authors
